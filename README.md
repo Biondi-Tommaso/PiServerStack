@@ -32,7 +32,7 @@ Clone the repository and run the script:
 
 ```bash
 sudo apt update && sudo apt install -y wget git
-git clone https://github.com/yourusername/raspi-server-setup.git
+git clone https://github.com/Biondi-Tommaso/PiServerStack.git
 cd raspi-server-setup
 sudo ./raspiserver-setup.sh
 ```
@@ -40,7 +40,7 @@ sudo ./raspiserver-setup.sh
 Or run directly with wget:
 
 ```
-wget https://raw.githubusercontent.com/yourusername/raspi-server-setup/main/raspiserver-setup.sh -O setup.sh
+wget https://github.com/Biondi-Tommaso/PiServerStack/blob/main/setup.sh -O setup.sh
 chmod +x setup.sh
 sudo ./setup.sh
 ```
